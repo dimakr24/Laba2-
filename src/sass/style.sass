@@ -1,0 +1,259 @@
+.link
+    text-decoration: none
+    color: white
+@import "normalizez.scss"
+@import "resets.scss"
+*
+    box-sizing: border-box
+$color-yellow: #DDEF06
+$color-orange: #FFB800
+$color-red: #FF3D00
+$color-grey: #959595
+
+.conteiner
+    max-width: 1140px
+    margin: 0 auto
+
+.main-section
+    height: 800px
+    background: #0F0F0F
+    &__content-container
+        display: flex
+        flex-direction: row
+    &__header 
+        
+        width: 175px
+        height: 90.641px
+        padding-top: 20px
+        padding-left: 180px 
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+.nav-menu
+    padding-top: 40px
+    padding-right: 180px
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 38px
+        font-size: 18px
+        &:last-child
+            margin-right: 0px
+.left-wrapper
+    &__img
+        width: 887px
+        height: 682px
+        padding-left: 150px
+        padding-top: 7px
+        position: relative
+        z-index: 7
+    &__rectangle-yellow
+        position: absolute
+        z-index: 6
+        top: 335px
+        left: 100px
+        width: 641.532px
+        height: 207.805px
+        transform: rotate(-61.877deg)
+        border-radius: 100px
+        background: #DDEF06
+        box-shadow: 20px 4px 4px 0px rgba(0, 0, 0, 0.25)
+    &__rectangle-orange
+        position: absolute
+        z-index: 5
+        top: 375px
+        left: 170px
+        width: 646.537px
+        height: 208.566px
+        transform: rotate(-41.544deg)
+        flex-shrink: 0
+        border-radius: 100px
+        background: #FFB800
+        box-shadow: 25px 4px 4px 0px rgba(0, 0, 0, 0.25)
+    &__rectangle-red
+        position: absolute
+        z-index: 4
+        top: 454px
+        left: 220px
+        width: 647.387px
+        height: 205.067px
+        transform: rotate(-18.676deg)
+        flex-shrink: 0
+        border-radius: 100px
+        background: #FF3D00
+.title
+        position: relative
+        padding-left: 10px
+        font-size: 60px
+        color: white
+        z-index: 10
+.right-wrapper
+    padding-left: 100px
+    padding-top: 100px
+    
+    &__text
+        font-size: 20px
+        color: white
+        position: relative
+        z-index: 10
+    &__icons-box
+        padding-top: 
+        display: flex
+        flex-direction: row
+        width: 60px
+        height: 66px
+.buttons__text
+    color: white
+.title__hr
+    position: absolute
+    width: 50px
+    top: 23px
+    left: 1px
+    z-index: 9
+    color: white
+.buttons
+    display: inline-flex
+    &__main-btn
+        font-size: 20px
+        height: 40px
+        width: 180px
+        margin-top: 100px
+        color: white
+        background-color: #FFB800
+        border-radius: 100px
+        border: none
+        
+    &__icon-btn
+        display: inline-flex
+        position: relative
+        padding-top: 90px
+        padding-left: 30px
+        img
+            margin-right: 12px
+.elipse
+    
+    position: absolute
+    
+    flex-shrink: 0
+    left: 1100px
+    top: 240px
+.second-section
+    min-height: 700px
+    
+    &__cards-box
+        display: inline-flex
+        
+        position: relative
+        left: 120px
+    &__container
+        padding-top: 32px
+        min-height: 700px
+        background-color: #242424
+    &__cards-item
+        margin-right: 30px
+        &:last-child
+            margin-right: 0px
+    &__title
+        margin-bottom: 50px
+        display: flex
+        padding-left: 130px
+    
+        
+.cards-item
+    position: relative
+    width: 408.604px
+    height: 408.604px
+    background-color: #DDEF06
+    border-radius: 43px
+    display: flex
+    align-items: flex-end
+    
+    &__img
+        height: 360px
+    &__text
+        width: 280px
+        font-size: 40px
+        text-align: center
+        transform: rotate(90deg)
+        position: absolute
+        top: 175px
+        right: -40px
+    &__orange 
+        background-color:  #ffb800
+    &__red
+        
+        background-color: #FF3D00
+.icons-item
+    &__img1
+        position: absolute
+        right: 1300px
+        padding-top: 30px
+    &__img2
+        position: absolute
+        right: 880px
+        padding-top: 30px
+    &__img3
+        position: absolute
+        right: 490px
+        padding-top: 30px
+    &__text1
+        position: absolute
+        right: 1170px
+        padding-top: 50px
+        font-size: 20px
+        color: white
+        span
+            font-size: 36px
+    &__text2
+        position: absolute
+        right: 790px
+        padding-top: 50px
+        font-size: 20px
+        color: white
+        span
+            font-size: 36px
+    &__text3
+        position: absolute
+        right: 410px
+        padding-top: 40px
+        font-size: 20px
+        color: white
+        span
+            font-size: 36px
+.third-section
+    
+    min-height: 800px
+    background-color: #0F0F0F
+    
+    &__text1
+        font-size: 48px
+        color: white
+        position: absolute
+        left: 900px
+        padding-top: 100px
+    &__text2
+        font-size: 25px
+        color: white
+        position: absolute
+        left: 900px
+        padding-top: 170px
+    &__icon-btn
+        display: inline-flex
+        position: relative
+        left: 900px
+        padding-top: 500px
+        font-size: 20px
+        color: white
+        img
+            margin-right: 12px
+    &__elipse
+        
+        position: absolute
+        top: 1600px
+        left: 250px
+    &__elipse2
+        position: absolute
+        top: 1650px
+        left: 370px
